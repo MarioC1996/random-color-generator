@@ -1,0 +1,21 @@
+{
+  "name": "Random-Color-Generator",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "eslint": "^10.8.0",
+    "eslint-config-upleveled": "^10.0.0",
+    "prettier": "^3.9.6",
+    "typescript": "^7.0.2"
+  },
+  "packageManager": "pnpm@10.32.1"
+}
