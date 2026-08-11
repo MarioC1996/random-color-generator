@@ -13,6 +13,7 @@
   "devDependencies": {
     "@types/node": "^26.1.2",
     "@types/randomcolor": "^0.5.9",
+    "@types/styled-components": "^5.1.36",
     "eslint": "^10.8.0",
     "eslint-config-upleveled": "^10.0.0",
     "prettier": "^3.9.6",
