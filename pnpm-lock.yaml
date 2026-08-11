@@ -14,8 +14,15 @@ importers:
       randomcolor:
         specifier: ^0.6.2
         version: 0.6.2
+    devDependencies:
+      '@types/randomcolor':
+        specifier: ^0.5.9
+        version: 0.5.9
 
 packages:
+
+  '@types/randomcolor@0.5.9':
+    resolution: {integrity: sha512-k58cfpkK15AKn1m+oRd9nh5BnuiowhbyvBBdAzcddtARMr3xRzP0VlFaAKovSG6N6Knx08EicjPlOMzDejerrQ==}
 
   ansis@4.3.1:
     resolution: {integrity: sha512-BJ8/l4R5LRE7hW9WdSuGYrLSHi2ynxeFpDFbH0K/CgNeY/tyhk+vO6TYxXC5r5CpUhNVX310xzPsN/H9lCdfOA==}
@@ -25,6 +32,8 @@ packages:
     resolution: {integrity: sha512-Mn6TbyYpFgwFuQ8KJKqf3bqqY9O1y37/0jgSK/61PUxV4QfIMv0+K2ioq8DfOjkBslcjwSzRfIDEXfzA9aCx7A==}
 
 snapshots:
+
+  '@types/randomcolor@0.5.9': {}
 
   ansis@4.3.1: {}
 

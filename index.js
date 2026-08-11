@@ -16,18 +16,6 @@ const colorLuminosity = randomColor({
   luminosity: process.argv[2]
 });
 
-/*console.log(console.log(hex(colorHueLuminosity)(`
-###############################
-###############################
-###############################
-#####                     #####
-#####       ${colorHueLuminosity}       #####
-#####                     #####
-###############################
-###############################
-###############################
-`)));
-*/
 
 
 if (process.argv[2] === 'red' || 'blue' || 'green' ){
@@ -80,9 +68,3 @@ if (process.argv[2] === 'red' || 'blue' || 'green' ){
 ###############################
 `));
 };
-
-
-
-
-//console.log(process.argv[2]);
-//console.log(randColor);
