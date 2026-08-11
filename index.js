@@ -5,21 +5,20 @@ import randomColor from 'randomcolor';
 // import an npm called "randomcolor" for generating random colors
 
 const color = randomColor();
-const colorHueLuminosity= randomColor({
+const colorHueLuminosity = randomColor({
   luminosity: process.argv[2],
-  hue: process.argv[3]
+  hue: process.argv[3],
 });
 const colorHue = randomColor({
-  hue: process.argv[2]
+  hue: process.argv[2],
 });
 const colorLuminosity = randomColor({
-  luminosity: process.argv[2]
+  luminosity: process.argv[2],
 });
 
-
-
-if (process.argv[2] === 'red' || 'blue' || 'green' ){
-  console.log(hex(colorHue)(`
+if (process.argv[2] === 'red' || 'blue' || 'green') {
+  console.log(
+    hex(colorHue)(`
 ###############################
 ###############################
 ###############################
@@ -29,9 +28,12 @@ if (process.argv[2] === 'red' || 'blue' || 'green' ){
 ###############################
 ###############################
 ###############################
-`));
-}else if(process.argv[2] === 'light' || 'dark'){
-  console.log(console.log(hex(colorLuminosity)(`
+`),
+  );
+} else if (process.argv[2] === 'light' || 'dark') {
+  console.log(
+    console.log(
+      hex(colorLuminosity)(`
 ###############################
 ###############################
 ###############################
@@ -41,9 +43,15 @@ if (process.argv[2] === 'red' || 'blue' || 'green' ){
 ###############################
 ###############################
 ###############################
-`)));
-}else if((process.argv[2]=== 'red' || 'blue' || 'green' ) && (process.argv[3] === 'light' || 'dark')){
-  console.log(hex(colorHueLuminosity)(`
+`),
+    ),
+  );
+} else if (
+  (process.argv[2] === 'red' || 'blue' || 'green') &&
+  (process.argv[3] === 'light' || 'dark')
+) {
+  console.log(
+    hex(colorHueLuminosity)(`
 ###############################
 ###############################
 ###############################
@@ -53,10 +61,11 @@ if (process.argv[2] === 'red' || 'blue' || 'green' ){
 ###############################
 ###############################
 ###############################
-`));
-
-  }else {
-  console.log(hex(color)(`
+`),
+  );
+} else {
+  console.log(
+    hex(color)(`
 ###############################
 ###############################
 ###############################
@@ -66,5 +75,6 @@ if (process.argv[2] === 'red' || 'blue' || 'green' ){
 ###############################
 ###############################
 ###############################
-`));
-};
+`),
+  );
+}
