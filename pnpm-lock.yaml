@@ -2141,7 +2141,7 @@ snapshots:
       eslint: 10.8.0
       ignore: 7.0.6
       natural-compare: 1.4.0
-      ts-api-utils: 2.5.0(typescript@7.0.2)
+      ts-api-utils: 2.4.0(typescript@7.0.2)
       typescript: 7.0.2
     transitivePeerDependencies:
       - supports-color
@@ -2160,8 +2160,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.56.1(typescript@7.0.2)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.66.0(typescript@7.0.2)
-      '@typescript-eslint/types': 8.66.0
+      '@typescript-eslint/tsconfig-utils': 8.56.1(typescript@7.0.2)
+      '@typescript-eslint/types': 8.56.1
       debug: 4.4.3
       typescript: 7.0.2
     transitivePeerDependencies:
@@ -2201,7 +2201,7 @@ snapshots:
       '@typescript-eslint/utils': 8.56.1(eslint@10.8.0)(typescript@7.0.2)
       debug: 4.4.3
       eslint: 10.8.0
-      ts-api-utils: 2.5.0(typescript@7.0.2)
+      ts-api-utils: 2.4.0(typescript@7.0.2)
       typescript: 7.0.2
     transitivePeerDependencies:
       - supports-color
@@ -2232,7 +2232,7 @@ snapshots:
       minimatch: 10.2.6
       semver: 7.8.5
       tinyglobby: 0.2.17
-      ts-api-utils: 2.5.0(typescript@7.0.2)
+      ts-api-utils: 2.4.0(typescript@7.0.2)
       typescript: 7.0.2
     transitivePeerDependencies:
       - supports-color
@@ -2887,7 +2887,7 @@ snapshots:
       compare-versions: 6.1.1
       eslint: 10.8.0
       is-immutable-type: 5.0.4(eslint@10.8.0)(typescript@7.0.2)
-      ts-api-utils: 2.5.0(typescript@7.0.2)
+      ts-api-utils: 2.4.0(typescript@7.0.2)
       ts-pattern: 5.9.0
       typescript: 7.0.2
     transitivePeerDependencies:
@@ -3262,7 +3262,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/type-utils': 8.66.0(eslint@10.8.0)(typescript@7.0.2)
       eslint: 10.8.0
-      ts-api-utils: 2.5.0(typescript@7.0.2)
+      ts-api-utils: 2.4.0(typescript@7.0.2)
       ts-declaration-location: 1.0.7(typescript@7.0.2)
       typescript: 7.0.2
     transitivePeerDependencies:
