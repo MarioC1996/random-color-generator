@@ -3,9 +3,15 @@ import ansis, { bold, cyan, hex, red, rgb } from 'ansis';
 import randomColor from 'randomcolor';
 
 // import an npm called "randomcolor" for generating random colors
+const colorHue = process.argv[2];
+const colorLuminosity = process.argv[3];
+const color = randomColor({
+  hue: colorHue,
+  luminosity: colorLuminosity
+});
 
-const color = randomColor();
-const colorHueLuminosity = randomColor({
+
+/*const colorHueLuminosity = randomColor({
   luminosity: process.argv[2],
   hue: process.argv[3],
 });
@@ -15,8 +21,23 @@ const colorHue = randomColor({
 const colorLuminosity = randomColor({
   luminosity: process.argv[2],
 });
+*/
+console.log(
+    hex(color)(`
+###############################
+###############################
+###############################
+#####                     #####
+#####       ${color}       #####
+#####                     #####
+###############################
+###############################
+###############################
+`),
+  );
 
-if (process.argv[2] === 'red' || 'blue' || 'green') {
+
+/*if (process.argv[2] === 'red' || 'blue' || 'green') {
   console.log(
     hex(colorHue)(`
 ###############################
@@ -78,3 +99,4 @@ if (process.argv[2] === 'red' || 'blue' || 'green') {
 `),
   );
 }
+*/
