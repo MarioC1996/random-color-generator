@@ -5,23 +5,14 @@ import randomColor from 'randomcolor';
 // import an npm called "randomcolor" for generating random colors
 const colorHue = process.argv[2];
 const colorLuminosity = process.argv[3];
+
 const color = randomColor({
   hue: colorHue,
   luminosity: colorLuminosity
 });
 
 
-/*const colorHueLuminosity = randomColor({
-  luminosity: process.argv[2],
-  hue: process.argv[3],
-});
-const colorHue = randomColor({
-  hue: process.argv[2],
-});
-const colorLuminosity = randomColor({
-  luminosity: process.argv[2],
-});
-*/
+
 console.log(
     hex(color)(`
 ###############################
@@ -37,66 +28,4 @@ console.log(
   );
 
 
-/*if (process.argv[2] === 'red' || 'blue' || 'green') {
-  console.log(
-    hex(colorHue)(`
-###############################
-###############################
-###############################
-#####                     #####
-#####       ${colorHue}       #####
-#####                     #####
-###############################
-###############################
-###############################
-`),
-  );
-} else if (process.argv[2] === 'light' || 'dark') {
-  console.log(
-    console.log(
-      hex(colorLuminosity)(`
-###############################
-###############################
-###############################
-#####                     #####
-#####       ${colorLuminosity}       #####
-#####                     #####
-###############################
-###############################
-###############################
-`),
-    ),
-  );
-} else if (
-  (process.argv[2] === 'red' || 'blue' || 'green') &&
-  (process.argv[3] === 'light' || 'dark')
-) {
-  console.log(
-    hex(colorHueLuminosity)(`
-###############################
-###############################
-###############################
-#####                     #####
-#####       ${colorHueLuminosity}       #####
-#####                     #####
-###############################
-###############################
-###############################
-`),
-  );
-} else {
-  console.log(
-    hex(color)(`
-###############################
-###############################
-###############################
-#####                     #####
-#####       ${color}       #####
-#####                     #####
-###############################
-###############################
-###############################
-`),
-  );
-}
-*/
+
